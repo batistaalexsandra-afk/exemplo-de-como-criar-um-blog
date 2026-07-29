@@ -1,18 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Blog Interativo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<heade>
-<h1>titulo principal</h1>
-<p>explicação breve sobre o blog</p>
-</heade>
-    <main>
-        <h3>subtitulo<h2>
-        <p>escrever detalhadamente sobre o assunto</p>
-    </main>
+
+  <header>
+    <h1>🚀 Meu Blog Tech</h1>
+    <p>Bem-vindo ao meu espaço de dicas e aprendizados!</p>
+  </header>
+
+  <main>
+    <article class="post">
+      <h2 class="post-title">Como criei meu primeiro projeto no GitHub</h2>
+      <p class="post-content">
+        Criar projetos e compartilhar o código é uma das melhores formas de aprender programação...
+      </p>
+      
+      <div class="actions">
+        <button class="like-btn" onclick="curtirPost(this)">
+          ❤️ Curtir (<span class="like-count">0</span>)
+        </button>
+      </div>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
